@@ -16,6 +16,13 @@ class App extends Component {
           </p>
           <input type="text" style={{marginBottom : 8}}/><br/>
           <button class="btn btn-primary">Saring</button>
+
+          <div style = {{display:'flex', justifyContent:'center',textAlign:'left'}}>
+            <ol>
+              <li>Jawa Barat</li>
+              <li>Jawa Tengah</li>
+            </ol>
+          </div>
         </header>
       </div>
     );
