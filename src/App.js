@@ -9,16 +9,13 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            React tester
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <p className="App-intro">
+            Filter
+          </p>
+          <input type="text" style={{marginBottom : 8}}/><br/>
+          <button class="btn btn-primary">Saring</button>
         </header>
       </div>
     );
